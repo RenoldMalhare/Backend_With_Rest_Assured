@@ -3,28 +3,28 @@ package $05_CRUD_With_BDD.copy;
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
 
-import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
-import io.restassured.response.Response;
-import io.restassured.specification.RequestSpecification;
+
+import static io.restassured.RestAssured.*;
 
 public class $02_TestToCreateTheData {
 	@Test
      public void postReqForProjectTest() {
     
     	 JSONObject jsonObj = new JSONObject();
-       	 jsonObj.put("createdBy", "Black");
-     	 jsonObj.put("projectName","Black_Project");
+       	 jsonObj.put("createdBy", "yellow");
+     	 jsonObj.put("projectName","yellow_project");
     	 jsonObj.put("status","Created");
     	 jsonObj.put("teamSize",0);
    
-    	 RequestSpecification req = RestAssured.given();
-    	 req.contentType(ContentType.JSON);
-    	 req.body(jsonObj.toJSONString());
+    	 given()
+    	     .contentType(ContentType.JSON)
+    	     .body(jsonObj.toJSONString())
+    	     
+    	 .when()
+    	     .post("http://49.249.29.4:8091/addProject")
     	 
-    	 Response resp = req.post("http://49.249.29.4:8091/addProject");
-    	 resp.then().log().all();
-    	 resp.then().assertThat().statusCode(201);
-    	 
+    	 .then().assertThat().statusCode(201)
+    	     .log().all();	 
      }
 }

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="$05_CRUD_With_BDD.copy.$01_TestToReadTheData">
+      <class name="$05_CRUD_With_BDD.copy.$05_TestToDeleteTheData">
         <methods>
           <include name="getReqTest"/>
         </methods>
-      </class> <!-- $05_CRUD_With_BDD.copy.$01_TestToReadTheData -->
+      </class> <!-- $05_CRUD_With_BDD.copy.$05_TestToDeleteTheData -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-06T16:19:10 IST" name="Default suite" finished-at="2026-06-06T16:19:12 IST" duration-ms="2294">
+  <suite started-at="2026-06-07T17:18:37 IST" name="Default suite" finished-at="2026-06-07T17:18:39 IST" duration-ms="1448">
     <groups>
     </groups>
-    <test started-at="2026-06-06T16:19:10 IST" name="Default test" finished-at="2026-06-06T16:19:12 IST" duration-ms="2294">
-      <class name="$05_CRUD_With_BDD.copy.$01_TestToReadTheData">
-        <test-method signature="getReqTest()[pri:0, instance:$05_CRUD_With_BDD.copy.$01_TestToReadTheData@38d8f54a]" started-at="2026-06-06T16:19:10 IST" name="getReqTest" finished-at="2026-06-06T16:19:12 IST" duration-ms="2259" status="PASS">
+    <test started-at="2026-06-07T17:18:37 IST" name="Default test" finished-at="2026-06-07T17:18:39 IST" duration-ms="1448">
+      <class name="$05_CRUD_With_BDD.copy.$05_TestToDeleteTheData">
+        <test-method signature="getReqTest()[pri:0, instance:$05_CRUD_With_BDD.copy.$05_TestToDeleteTheData@38d8f54a]" started-at="2026-06-07T17:18:37 IST" name="getReqTest" finished-at="2026-06-07T17:18:39 IST" duration-ms="1407" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getReqTest -->
-      </class> <!-- $05_CRUD_With_BDD.copy.$01_TestToReadTheData -->
+      </class> <!-- $05_CRUD_With_BDD.copy.$05_TestToDeleteTheData -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

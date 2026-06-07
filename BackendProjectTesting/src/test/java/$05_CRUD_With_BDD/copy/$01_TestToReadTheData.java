@@ -11,8 +11,6 @@ public class $01_TestToReadTheData {
     	     .get("http://49.249.29.4:8091/projects")
     	 .then()
     	     .assertThat().statusCode(200)
-    	     .log().all();
-    	 
-    	 
+    	     .log().all();	 
      }
 }
