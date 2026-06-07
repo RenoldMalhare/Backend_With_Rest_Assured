@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="$03_RestAssuredClassTest.GetRequestUsingMethodChaining">
+      <class name="$05_CRUD_With_BDD.copy.$01_TestToReadTheData">
         <methods>
-          <include name="getRequestTest"/>
+          <include name="getReqTest"/>
         </methods>
-      </class> <!-- $03_RestAssuredClassTest.GetRequestUsingMethodChaining -->
+      </class> <!-- $05_CRUD_With_BDD.copy.$01_TestToReadTheData -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

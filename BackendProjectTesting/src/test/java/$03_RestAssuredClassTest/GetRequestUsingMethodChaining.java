@@ -6,7 +6,6 @@ import static io.restassured.RestAssured.*;
 public class GetRequestUsingMethodChaining {
     @Test
     public void getRequestTest() {
-//    	get("petstore.swagger.io/v2/pet/findByStatus ").then().log().all();
-    	
+    	get("https://fakestoreapi.com/products").then().log().all();
     }
 }
