@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="$05_CRUD_With_BDD.copy.$05_TestToDeleteTheData">
+      <class name="$09_AssertionOrResponseValidation.$06_ResponseBodyFeatchingDataUsingDependency2">
         <methods>
-          <include name="getReqTest"/>
+          <include name="responseBodyValidatiton"/>
         </methods>
-      </class> <!-- $05_CRUD_With_BDD.copy.$05_TestToDeleteTheData -->
+      </class> <!-- $09_AssertionOrResponseValidation.$06_ResponseBodyFeatchingDataUsingDependency2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
