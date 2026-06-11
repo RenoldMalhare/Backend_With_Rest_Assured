@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="$09_AssertionOrResponseValidation.$06_ResponseBodyFeatchingDataUsingDependency2">
+      <class name="$13_Authentication.$04_BearerTokenAuthTest">
         <methods>
-          <include name="responseBodyValidatiton"/>
+          <include name="bearerTokenTest"/>
         </methods>
-      </class> <!-- $09_AssertionOrResponseValidation.$06_ResponseBodyFeatchingDataUsingDependency2 -->
+      </class> <!-- $13_Authentication.$04_BearerTokenAuthTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
