@@ -68,7 +68,7 @@ public class JacksonAnnotations {   //pojo class plain old java object
 
 	    	 ObjectMapper objM = new ObjectMapper();
 	         objM.writeValue(new File("./jacksonAnnotationSerial.json"), pobj);
-	         
+	        
 	         System.out.println("====End====");
 	     }	
 }

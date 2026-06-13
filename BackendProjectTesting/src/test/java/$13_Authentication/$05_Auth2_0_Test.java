@@ -8,7 +8,7 @@ import static io.restassured.RestAssured.*;
 public class $05_Auth2_0_Test {
     @Test
     public void auth2point0(){
-    	//Not execute because no access to params is given
+    	//Not executable because no access to params is given
 		Response resp = given()
 				          .formParam("client_id", "ninza-client")
 				          .formParam("client_secret", "a;sldkfjlajsjdflkjalsdj")

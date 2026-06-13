@@ -22,7 +22,7 @@ public class $03_TestToUpdateTheFullData {
     	    .body(jsonObj.toJSONString())
     	 
     	 .when()
-    	    .put("http://49.249.29.4:8091/project/NH_PROJ_262")
+    	    .put("http://49.249.29.4:8091/project/NH_PROJ_154")
     	 
     	 .then()
     	    .assertThat().statusCode(200)

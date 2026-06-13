@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="$13_Authentication.$04_BearerTokenAuthTest">
+      <class name="$14_EncryptionAndDecryption.$05_ActualRequestAndRequestInEncryptionAndDecryption">
         <methods>
-          <include name="bearerTokenTest"/>
+          <include name="test"/>
         </methods>
-      </class> <!-- $13_Authentication.$04_BearerTokenAuthTest -->
+      </class> <!-- $14_EncryptionAndDecryption.$05_ActualRequestAndRequestInEncryptionAndDecryption -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
