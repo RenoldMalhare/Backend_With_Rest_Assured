@@ -1,173 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-13T10:41:46 IST" name="Default suite" finished-at="2026-06-13T10:42:19 IST" duration-ms="33092">
+  <suite started-at="2026-06-16T16:24:13 IST" name="Default suite" finished-at="2026-06-16T16:24:16 IST" duration-ms="2765">
     <groups>
     </groups>
-    <test started-at="2026-06-13T10:41:46 IST" name="Default test" finished-at="2026-06-13T10:42:19 IST" duration-ms="33092">
-      <class name="$15_DataDrivenTesting.$02_DataDriverTestUsingExcelFile">
-        <test-method signature="DDTTestUsingExcel(java.lang.String,java.lang.String)[pri:0, instance:$15_DataDrivenTesting.$02_DataDriverTestUsingExcelFile@6b2ea799]" started-at="2026-06-13T10:41:47 IST" name="DDTTestUsingExcel" data-provider="getData" finished-at="2026-06-13T10:41:53 IST" duration-ms="6291" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Red001]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Created]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2026-06-16T16:24:13 IST" name="Default test" finished-at="2026-06-16T16:24:16 IST" duration-ms="2765">
+      <class name="$18_BackendApiTestCaseAutomation.$01_VerifyTheProjectWithCreateTest">
+        <test-method signature="addSingleProjectWithCreatedTest()[pri:0, instance:$18_BackendApiTestCaseAutomation.$01_VerifyTheProjectWithCreateTest@6c6cb480]" started-at="2026-06-16T16:24:13 IST" name="addSingleProjectWithCreatedTest" finished-at="2026-06-16T16:24:16 IST" duration-ms="2650" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DDTTestUsingExcel -->
-        <test-method signature="DDTTestUsingExcel(java.lang.String,java.lang.String)[pri:0, instance:$15_DataDrivenTesting.$02_DataDriverTestUsingExcelFile@6b2ea799]" started-at="2026-06-13T10:41:53 IST" name="DDTTestUsingExcel" data-provider="getData" finished-at="2026-06-13T10:41:59 IST" duration-ms="5780" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Red002]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Created]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- addSingleProjectWithCreatedTest -->
+        <test-method signature="createDuplicateProjectTest()[pri:0, instance:$18_BackendApiTestCaseAutomation.$01_VerifyTheProjectWithCreateTest@6c6cb480]" started-at="2026-06-16T16:24:16 IST" name="createDuplicateProjectTest" finished-at="2026-06-16T16:24:16 IST" depends-on-methods="$18_BackendApiTestCaseAutomation.$01_VerifyTheProjectWithCreateTest.addSingleProjectWithCreatedTest" duration-ms="82" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DDTTestUsingExcel -->
-        <test-method signature="DDTTestUsingExcel(java.lang.String,java.lang.String)[pri:0, instance:$15_DataDrivenTesting.$02_DataDriverTestUsingExcelFile@6b2ea799]" started-at="2026-06-13T10:41:59 IST" name="DDTTestUsingExcel" data-provider="getData" finished-at="2026-06-13T10:42:04 IST" duration-ms="5794" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Red003]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Created]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DDTTestUsingExcel -->
-        <test-method signature="DDTTestUsingExcel(java.lang.String,java.lang.String)[pri:0, instance:$15_DataDrivenTesting.$02_DataDriverTestUsingExcelFile@6b2ea799]" started-at="2026-06-13T10:42:04 IST" name="DDTTestUsingExcel" data-provider="getData" finished-at="2026-06-13T10:42:09 IST" duration-ms="4959" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Red004]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Created]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DDTTestUsingExcel -->
-        <test-method signature="DDTTestUsingExcel(java.lang.String,java.lang.String)[pri:0, instance:$15_DataDrivenTesting.$02_DataDriverTestUsingExcelFile@6b2ea799]" started-at="2026-06-13T10:42:09 IST" name="DDTTestUsingExcel" data-provider="getData" finished-at="2026-06-13T10:42:12 IST" duration-ms="2758" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Red005]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Created]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DDTTestUsingExcel -->
-        <test-method signature="DDTTestUsingExcel(java.lang.String,java.lang.String)[pri:0, instance:$15_DataDrivenTesting.$02_DataDriverTestUsingExcelFile@6b2ea799]" started-at="2026-06-13T10:42:12 IST" name="DDTTestUsingExcel" data-provider="getData" finished-at="2026-06-13T10:42:14 IST" duration-ms="1331" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Red006]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Created]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DDTTestUsingExcel -->
-        <test-method signature="DDTTestUsingExcel(java.lang.String,java.lang.String)[pri:0, instance:$15_DataDrivenTesting.$02_DataDriverTestUsingExcelFile@6b2ea799]" started-at="2026-06-13T10:42:14 IST" name="DDTTestUsingExcel" data-provider="getData" finished-at="2026-06-13T10:42:15 IST" duration-ms="1258" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Red007]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Created]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DDTTestUsingExcel -->
-        <test-method signature="DDTTestUsingExcel(java.lang.String,java.lang.String)[pri:0, instance:$15_DataDrivenTesting.$02_DataDriverTestUsingExcelFile@6b2ea799]" started-at="2026-06-13T10:42:15 IST" name="DDTTestUsingExcel" data-provider="getData" finished-at="2026-06-13T10:42:16 IST" duration-ms="1296" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Red008]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Created]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DDTTestUsingExcel -->
-        <test-method signature="DDTTestUsingExcel(java.lang.String,java.lang.String)[pri:0, instance:$15_DataDrivenTesting.$02_DataDriverTestUsingExcelFile@6b2ea799]" started-at="2026-06-13T10:42:16 IST" name="DDTTestUsingExcel" data-provider="getData" finished-at="2026-06-13T10:42:18 IST" duration-ms="1465" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Red009]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Created]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DDTTestUsingExcel -->
-        <test-method signature="DDTTestUsingExcel(java.lang.String,java.lang.String)[pri:0, instance:$15_DataDrivenTesting.$02_DataDriverTestUsingExcelFile@6b2ea799]" started-at="2026-06-13T10:42:18 IST" name="DDTTestUsingExcel" data-provider="getData" finished-at="2026-06-13T10:42:19 IST" duration-ms="1355" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Red010]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Created]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DDTTestUsingExcel -->
-      </class> <!-- $15_DataDrivenTesting.$02_DataDriverTestUsingExcelFile -->
+        </test-method> <!-- createDuplicateProjectTest -->
+      </class> <!-- $18_BackendApiTestCaseAutomation.$01_VerifyTheProjectWithCreateTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
