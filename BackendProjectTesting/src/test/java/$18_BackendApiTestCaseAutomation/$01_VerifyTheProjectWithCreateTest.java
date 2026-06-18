@@ -46,7 +46,7 @@ public class $01_VerifyTheProjectWithCreateTest {
     	 String actMsg = resp.jsonPath().get("msg");
     	 Assert.assertEquals(exptedMsg, actMsg);
     	 
-//    	 //Verify the project Name in the db layer
+//    	 //Verify the project Name in the db layer Not working because the db connection is not present
 //    	 boolean flag = false;
 //         
 //    	    //Step1: load/register the database driver

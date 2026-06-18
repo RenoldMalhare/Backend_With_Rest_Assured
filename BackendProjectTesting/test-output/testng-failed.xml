@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="$18_BackendApiTestCaseAutomation.$01_VerifyTheProjectWithCreateTest">
+      <class name="$20_SpecBuilder.$02_Employee">
         <methods>
-          <include name="createDuplicateProjectTest"/>
-          <include name="addSingleProjectWithCreatedTest"/>
+          <include name="configBS"/>
+          <include name="addEmployeeTest"/>
+          <include name="configAS"/>
         </methods>
-      </class> <!-- $18_BackendApiTestCaseAutomation.$01_VerifyTheProjectWithCreateTest -->
+      </class> <!-- $20_SpecBuilder.$02_Employee -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

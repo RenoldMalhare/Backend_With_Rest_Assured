@@ -1,21 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-16T16:24:13 IST" name="Default suite" finished-at="2026-06-16T16:24:16 IST" duration-ms="2765">
+  <suite started-at="2026-06-17T16:17:33 IST" name="Default suite" finished-at="2026-06-17T16:17:35 IST" duration-ms="2222">
     <groups>
     </groups>
-    <test started-at="2026-06-16T16:24:13 IST" name="Default test" finished-at="2026-06-16T16:24:16 IST" duration-ms="2765">
-      <class name="$18_BackendApiTestCaseAutomation.$01_VerifyTheProjectWithCreateTest">
-        <test-method signature="addSingleProjectWithCreatedTest()[pri:0, instance:$18_BackendApiTestCaseAutomation.$01_VerifyTheProjectWithCreateTest@6c6cb480]" started-at="2026-06-16T16:24:13 IST" name="addSingleProjectWithCreatedTest" finished-at="2026-06-16T16:24:16 IST" duration-ms="2650" status="PASS">
+    <test started-at="2026-06-17T16:17:33 IST" name="Default test" finished-at="2026-06-17T16:17:35 IST" duration-ms="2222">
+      <class name="$20_SpecBuilder.$02_Employee">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:$20_SpecBuilder.$02_Employee@1ce24091]" started-at="2026-06-17T16:17:32 IST" name="configBS" finished-at="2026-06-17T16:17:33 IST" duration-ms="664" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addSingleProjectWithCreatedTest -->
-        <test-method signature="createDuplicateProjectTest()[pri:0, instance:$18_BackendApiTestCaseAutomation.$01_VerifyTheProjectWithCreateTest@6c6cb480]" started-at="2026-06-16T16:24:16 IST" name="createDuplicateProjectTest" finished-at="2026-06-16T16:24:16 IST" depends-on-methods="$18_BackendApiTestCaseAutomation.$01_VerifyTheProjectWithCreateTest.addSingleProjectWithCreatedTest" duration-ms="82" status="PASS">
+        </test-method> <!-- configBS -->
+        <test-method signature="addEmployeeTest()[pri:0, instance:$20_SpecBuilder.$02_Employee@1ce24091]" started-at="2026-06-17T16:17:33 IST" name="addEmployeeTest" finished-at="2026-06-17T16:17:35 IST" duration-ms="2199" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createDuplicateProjectTest -->
-      </class> <!-- $18_BackendApiTestCaseAutomation.$01_VerifyTheProjectWithCreateTest -->
+        </test-method> <!-- addEmployeeTest -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:$20_SpecBuilder.$02_Employee@1ce24091]" started-at="2026-06-17T16:17:35 IST" name="configAS" finished-at="2026-06-17T16:17:35 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.sql.Connection.close()" because "GenericUtility.DbUtility.con" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.close()" because "GenericUtility.DbUtility.con" is null
+at GenericUtility.DbUtility.closeDb(DbUtility.java:34)
+at baseApiClass.BaseClassForApi.configAS(BaseClassForApi.java:47)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:386)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- $20_SpecBuilder.$02_Employee -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
