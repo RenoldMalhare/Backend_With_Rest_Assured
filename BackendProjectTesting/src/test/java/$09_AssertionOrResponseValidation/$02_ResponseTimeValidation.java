@@ -1,6 +1,5 @@
 package $09_AssertionOrResponseValidation;
 
-import org.hamcrest.Matcher;
 import org.hamcrest.Matchers;
 import org.testng.annotations.Test;
 

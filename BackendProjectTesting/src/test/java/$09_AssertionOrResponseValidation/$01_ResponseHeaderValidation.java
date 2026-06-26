@@ -15,6 +15,6 @@ public class $01_ResponseHeaderValidation {
     	resp.then().assertThat().statusLine("HTTP/1.1 200 ");
     	resp.then().statusCode(200);
     	resp.then().contentType(ContentType.JSON);
-    	resp.then().header("X-Frame-Options", "DENY");
+    	resp.then(). header("X-Frame-Options", "DENY");
     }
 }
