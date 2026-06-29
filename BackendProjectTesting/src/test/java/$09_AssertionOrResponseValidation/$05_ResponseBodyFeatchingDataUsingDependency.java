@@ -1,6 +1,5 @@
 package $09_AssertionOrResponseValidation;
 
-import org.hamcrest.Matchers;
 import org.testng.annotations.Test;
 
 import com.jayway.jsonpath.JsonPath;
@@ -8,7 +7,6 @@ import com.jayway.jsonpath.JsonPath;
 import io.restassured.response.Response;
 import static io.restassured.RestAssured.*;
 
-import java.util.ArrayList;
 import java.util.List;
 public class $05_ResponseBodyFeatchingDataUsingDependency {
     @Test

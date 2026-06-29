@@ -6,7 +6,7 @@ public class $04_ParamParameter {
     @Test
     public void paramParameterTest() {
         // can be used as query as well as form parameter depends on type of request get=>query or post=>formparameter
-    	given()
+    	given()  
     	  .param("teamSize", 1)
     	  .log().all()
     	.when()
